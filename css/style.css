@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul{
+  text-decoration: none;
+}
+aside{
+  background-color: #222222;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 16%;
+}
