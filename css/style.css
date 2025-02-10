@@ -3,13 +3,85 @@
   padding: 0;
   box-sizing: border-box;
 }
-ul{
-  text-decoration: none;
+body{
+  display: block;
+}
+.container{
+  display: flewx;
 }
 aside{
-  background-color: #222222;
-  color: #FFFFFF;
+  width: 16%;
   display: flex;
   flex-direction: column;
-  width: 16%;
+  background-color: #222222;
+  height: 100vh;
+  padding: 30px;
+  flex-grow: 1;
+  color: #FFFFFF;
+  gap: 30px;
+}
+.top_Icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left_text{
+  font-size: 23px;
+}
+b{
+  font-weight: bold;
+}
+.side_nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 25px;
+}
+ul{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}
+li{
+  display: list-item;
+  text-align: match-parent;
+}
+.side_nav a{
+  text-decoration: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px;
+  gap: 10px;
+}
+.following{
+  display: flex;
+  flex-direction: column;
+}
+.following h1{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+h1{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.following ul{
+  list-style-type: none;
+  padding: 0;
+}
+.following li{
+  font-size: 16px;
+  margin-bottom: 10px;
+
+}
+.following{
+  display: inline;
+  align-items: center;
+  gap: 10px;
 }
