@@ -3,85 +3,90 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  display: block;
-}
-.container{
-  display: flewx;
-}
-aside{
-  width: 16%;
+
+.container {
   display: flex;
-  flex-direction: column;
-  background-color: #222222;
-  height: 100vh;
-  padding: 30px;
-  flex-grow: 1;
-  color: #FFFFFF;
-  gap: 30px;
 }
-.top_Icon{
+
+.sidebar {
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+
+  width: 17%;
+  height: 1080px;
+  background-color: black;
+
+  padding: 42px 30px;
+}
+
+.sidebar-head {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
+  margin-bottom: 125px;
+  color: white;
 }
-.left_text{
-  font-size: 23px;
-}
-b{
-  font-weight: bold;
-}
-.side_nav ul{
-  list-style-type: none;
-  padding: 0;
-  margin-top: 25px;
-}
-ul{
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  padding-inline-start: 40px;
-}
-li{
-  display: list-item;
-  text-align: match-parent;
-}
-.side_nav a{
-  text-decoration: none;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  padding: 10px;
-  gap: 10px;
-}
-.following{
+
+.navigation-list {
   display: flex;
   flex-direction: column;
-}
-.following h1{
-  margin-bottom: 15px;
-  font-size: 12px;
-}
-h1{
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-.following ul{
-  list-style-type: none;
-  padding: 0;
-}
-.following li{
-  font-size: 16px;
-  margin-bottom: 10px;
-
-}
-.following{
-  display: inline;
   align-items: center;
+
   gap: 10px;
+}
+
+.navigation-list-item {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 60px;
+  padding: 0 30px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  transition: all 0.5s ease;
+}
+
+.navigation-list-item:hover {
+  background: #ff0b7d 0% 0% no-repeat padding-box;
+}
+
+.a-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  color: white;
+  padding: 40px 0px;
+  left: 0px;
+}
+
+.following {
+  color: white;
+}
+
+.following-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.following-list-item {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  list-style: none;
+}
+
+.load-more {
+  margin-top: 19px;
+  color: white;
 }
