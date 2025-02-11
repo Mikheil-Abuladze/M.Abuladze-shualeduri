@@ -177,7 +177,6 @@ h3 {
 }
 
 .main-services {
-  max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -209,5 +208,66 @@ h3 {
 .filter-button {
   height: 56px;
   width: 132px;
-  background-color: #ff0b7d;
+}
+
+.top-designers {
+  background-color: #fafafa;
+}
+
+.top-designers-li {
+  list-style: none;
+}
+
+.top-designers-ul {
+  display: flex;
+}
+.linked-pages {
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+.for-designers {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.for-designers h4 {
+  color: #a1a0a0;
+  font-weight: 100;
+}
+.list li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.list li,
+a {
+  text-decoration: none;
+  color: #a1a0a0;
+}
+.linked-pages {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  margin-bottom: 40px;
+}
+footer {
+  border-top: rgb(225, 222, 222) 1px solid;
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icons {
+  margin-left: 320px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 15px;
+}
+.signature {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.signature b {
+  font-weight: bolder;
 }
