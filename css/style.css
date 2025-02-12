@@ -421,3 +421,52 @@ td {
 tr:hover {
   background-color: #ff2288;
 }
+
+/* ================= Responsive =============== */
+@media screen and (max-width: 1100px) {
+  .sidebar {
+    display: none;
+  }
+  .main-content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 862px) {
+  .content-nav ul {
+    display: none;
+  }
+  .boxes-top {
+    flex-wrap: wrap;
+  }
+  .boxes-bottom {
+    flex-wrap: wrap;
+  }
+  .designer-avatar-box-container {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .box:hover .hover-save {
+    opacity: 100%;
+  }
+  .hover-save:hover {
+    transform: translateY(-3px);
+  }
+  .hover-heart:hover {
+    transform: translateY(-3px);
+  }
+  .box:hover .hover-heart {
+    opacity: 100%;
+  }
+  .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2);
+  }
+  .footer-icons {
+    margin-left: 0;
+  }
+  .linked-pages {
+    padding-left: 20px;
+    justify-content: center;
+  }
+}
