@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 html,
@@ -15,7 +16,7 @@ body {
 }
 
 .sidebar {
-  width: 17vw;
+  width: 30vw;
   height: 1080px;
   background-color: black;
 
@@ -212,14 +213,27 @@ h3 {
 
 .top-designers {
   background-color: #fafafa;
+  padding: 40px 120px;
+}
+
+.top-designers-view-all {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .top-designers-li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
   list-style: none;
 }
 
 .top-designers-ul {
   display: flex;
+  justify-content: space-between;
 }
 .linked-pages {
   width: 100%;
@@ -270,4 +284,39 @@ footer {
 }
 .signature b {
   font-weight: bolder;
+}
+
+.designer-photo {
+  border-radius: 60px;
+}
+
+@media screen and (max-width: 1500px) {
+  .designer-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+}
+
+@font-face {
+  font-family: "avenir-medium";
+  src: url("/fonts/avenir-medium.ttf");
+}
+
+/* page 2 table style */
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+td {
+  height: 50px;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+  background-color: #ff2288;
 }
