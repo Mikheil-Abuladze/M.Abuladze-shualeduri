@@ -89,137 +89,166 @@
         </div>
       </div>
 
-     <section>
+     <section class="main-section">
+      <!-- DONE -->
       <header class="header">
-        <div class="search-container">
-          <input class="search-input" type="text" placeholder="search inspiration" >
-          <img class="search-icon" src="./images/searchBar.png">
+        <div class="header__search-container">
+          <input class="header__search-input" type="text" placeholder="Search inspiration" >
+          <img class="header__search-icon" src="./images/searchBar.png">
         </div>
         
-        <div class="my-profile">
-          <p class="GoPro">Go pro!</p>
+        <div class="header__my-profile">
+          <p class="header__go-pro">Go pro!</p>
           <img style="width: 24px; height: 24px;" src="images/mailnotification.png" alt="mail">
           <img style="width: 24px; height: 24px;" src="images/bellnotification.png" alt="bell">
-          <a href="index-2.html"><img style="width: 56px; height: 56px;" src="images/myprofile.png" alt="myprofile"></a>
-          <button class="upload">UPLOAD</button>
+          <a href="index-2.html"><img src="images/myprofile.png" alt="myprofile"></a>
+          <button class="header__upload-btn">UPLOAD</button>
         </div>
       </header>
 
       <main class="main-content">
-        <nav class="main-content-nav">
-          <ul class="services">
-            <li class="services-list"><a href="#">All</a></li>
-            <li class="services-list"><a href="#">Web Design</a></li>
-            <li class="services-list"><a href="#">3D</a></li>
-            <li class="services-list"><a href="#">App design</a></li>
-            <li class="services-list"><a href="#">Animation</a></li>
-            <li class="services-list"><a href="#">Illustration</a></li>
-            <li class="services-list"><a href="#">Typography</a></li>
+        <nav class="main-content__nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-list-item"><a class="main-nav-list-item-link" href="#">All</a></li>
+            <li class="main-nav-list-item"><a class="main-nav-list-item-link" href="#">Web Design</a></li>
+            <li class="main-nav-list-item"><a class="main-nav-list-item-link" href="#">3D</a></li>
+            <li class="main-nav-list-item"><a class="main-nav-list-item-link" href="#">App design</a></li>
+            <li class="main-nav-list-item"><a class="main-nav-list-item-link" href="#">Animation</a></li>
+            <li class="main-nav-list-item"><a class="main-nav-list-item-link" href="#">Illustration</a></li>
+            <li class="main-nav-list-item"><a class="main-nav-list-item-link" href="#">Typography</a></li>
           </ul>
-          <button class="filter-button">Filters</button>
+          <button class="main-content__nav-btn">Filters</button>
         </nav>
 
-        <div class="main-services">
-          <div class="service unity">
-            <img class="service-image" src="images/Rectangle11.jpg" alt="unity">
+        <div class="main-content__services-container">
+          <div class="main-content__service unity">
+            <img class="main-content__service-image" src="images/Rectangle11.jpg" alt="unity">
             <span>UI Components for Unity Gaming</span>
           </div>
-          <div class="service blurr">
-            <img class="service-image" src="images/blurr.png" alt="blurr">
+          <div class="main-content__service blurr">
+            <img class="main-content__service-image" src="images/blurr.png" alt="blurr">
             <span>Analytics Mobile App – Blurr Series</span>
           </div>
-          <div class="service estaro">
-            <img class="service-image" src="images/estaro.png" alt="estaro">
+          <div class="main-content__service estaro">
+            <img class="main-content__service-image" src="images/estaro.png" alt="estaro">
             <span>Estaro – Dark-mode – Task Management App</span>
           </div>
-          <div class="service streaming">
-            <img class="service-image" src="images/streaming.png" alt="streaming">
+          <div class="main-content__service streaming">
+            <img class="main-content__service-image" src="images/streaming.png" alt="streaming">
             <span>Live streaming application for gamers</span>
           </div>
-          <div class="service mockup">
-            <img class="service-image" src="images/mockup.png" alt="mockup">
+          <div class="main-content__service mockup">
+            <img class="main-content__service-image" src="images/mockup.png" alt="mockup">
             <span>Dark Mockup for Unity Gaming</span>
           </div>
-          <div class="service smm">
-            <img class="service-image" src="images/smm.png" alt="smm">
+          <div class="main-content__service smm">
+            <img class="main-content__service-image" src="images/smm.png" alt="smm">
             <span>SMM – Social Media Management – App UI</span>
           </div>
-          <div class="service food">
-            <img class="service-image" src="images/food2.jpg" alt="food2">
+          <div class="main-content__service food">
+            <img class="main-content__service-image" src="images/food2.jpg" alt="food2">
             <span>Food App 2.0</span>
           </div>
-          <div class="service livestream">
-            <img class="service-image" src="images/livestream.jpg" alt="livestream">
+          <div class="main-content__service livestream">
+            <img class="main-content__service-image" src="images/livestream.jpg" alt="livestream">
             <span>Live streaming application for gamers.</span>
           </div>
         </div class="button-wrapper">
-        <button class="button">Load more</button>
+
+        <div class="main-content__load-more-btn-container">
+          <button class="main-content__load-more-btn">Load more</button>
+        </div>
       </main>
 
-      <div class="top-designers">
-        <div class="top-designers-view-all">
-          <span>Top Designers</span>
-          <button>View All</button>
+      <section class="main-content__top-designers">
+        <div class="main-content__top-designers-header">
+          <span class="main-content__top-designers-header-title">Top Designers</span>
+          <button class="main-content__top-designers-header-view-all-btn">View All</button>
         </div>
 
-        <ul class="top-designers-ul">
-          <li class="top-designers-li">
+        <ul class="main-content__top-designers-list">
+          <li class="main-content__top-designers-list-item">
             <img class="designer-photo" src="images/tranmau.jpg" alt="tran">
-            <span>Tran Mau</span>
-            <span>Tri Tam</span>
-            <span>Sia gon, Vietnam</span>
-            <button>following</button>
+            <div class="main-content__top-designers-name">
+              <span>Tran Mau</span>
+              <span>Tri Tam</span>
+            </div>
+
+            <span class="main-content__top-designers-country">Sia gon, Vietnam</span>
+            <button class="main-content__top-designers-follow-btn following">Following</button>
           </li>
-          <li class="top-designers-li">
+          <li class="main-content__top-designers-list-item">
             <img class="designer-photo" src="images/ghulam.jpg" alt="ghulam">
-            <span>Ghulam</span>
-            <span>Rasool</span>
-            <span>Dubai</span>
-            <button>Follow</button>
+            <div class="main-content__top-designers-name">
+              <span>Ghulam</span>
+              <span>Rasool</span>
+            </div>
+
+            <span class="main-content__top-designers-country">Dubai</span>
+            <button class="main-content__top-designers-follow-btn">Follow</button>
           </li>
-          <li class="top-designers-li">
+          <li class="main-content__top-designers-list-item">
             <img class="designer-photo" src="images/zhenya.jpg" alt="zhenya">
-            <span>Zhenia</span>
-            <span>Rynzhuk</span>
-            <span>NY</span>
-            <button>Follow</button>
+            <div class="main-content__top-designers-name">
+              <span>Zhenia</span>
+              <span>Rynzhuk</span>
+            </div>
+
+            <span class="main-content__top-designers-country">NY</span>
+            <button class="main-content__top-designers-follow-btn">Follow</button>
           </li>
-          <li class="top-designers-li">
+          <li class="main-content__top-designers-list-item">
             <img class="designer-photo" src="images/ghanipradita.jpg" alt="ghani">
-            <span>Ghani</span>
-            <span>Pradita</span>
-            <span>Yogyakarta, Indonesia</span>
-            <button>Follow</button>
+            <div class="main-content__top-designers-name">
+              <span>Ghani</span>
+              <span>Pradita</span>
+            </div>
+
+            <span class="main-content__top-designers-country">Yogyakarta, Indonesia</span>
+            <button class="main-content__top-designers-follow-btn">Follow</button>
           </li>
-          <li class="top-designers-li">
+          <li class="main-content__top-designers-list-item">
             <img class="designer-photo" src="images/sajonpic.jpg" alt="sajon">
-            <span>Sajon</span>
-            <span>Earth</span>
-            <button>Following</button>
+            <div class="main-content__top-designers-name">
+              <span>Sajon</span>
+              <span>Earth</span>
+            </div>
+
+            <button class="main-content__top-designers-follow-btn following">Following</button>
           </li>
-          <li class="top-designers-li">
+          <li class="main-content__top-designers-list-item">
             <img class="designer-photo" src="images/davidkovalev.jpg" alt="david">
-            <span>David</span>
-            <span>kovalev</span>
-            <span>Sarazota, Fl</span>
-            <button>Follow</button>
+            <div class="main-content__top-designers-name">
+              <span>David</span>
+              <span>kovalev</span>
+            </div>
+
+            <span class="main-content__top-designers-country">Sarazota, Fl</span>
+            <button class="main-content__top-designers-follow-btn">Follow</button>
           </li>
-          <li class="top-designers-li">
+          <li class="main-content__top-designers-list-item">
             <img class="designer-photo" src="images/ryanputnam.jpg" alt="ryan">
-            <span>Ryan</span>
-            <span>Putnam</span>
-            <span>Colorado Springs</span>
-            <button>Follow</button>
+            <div class="main-content__top-designers-name">
+              <span>Ryan</span>
+              <span>Putnam</span>
+            </div>
+
+            <span class="main-content__top-designers-country">Colorado Springs</span>
+            <button class="main-content__top-designers-follow-btn">Follow</button>
           </li>
-          <li class="top-designers-li">
+          <li class="main-content__top-designers-list-item">
             <img class="designer-photo" src="images/dmitry.jpg" alt="dmitry">
-            <span>Dmitry</span>
-            <span>Lauretsky</span>
-            <span>OMSK, Russia</span>
-            <button>Follow</button>
+            <div class="main-content__top-designers-name">
+              <span>Dmitry</span>
+              <span>Lauretsky</span>
+            </div>
+
+            <span class="main-content__top-designers-country">OMSK, Russia</span>
+            <button class="main-content__top-designers-follow-btn">Follow</button>
           </li>
         </ul>
-      </div>
+      </section>
+
       <div class="linked-pages">
         <div class="for-designers">
           <h4>For Designers</h4>
